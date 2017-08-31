@@ -4,10 +4,12 @@ import SearchBar from './components/Search_bar';
 
 const API_KEY = 'AIzaSyDQFcpcvhIVvda3fBVKP2hubuyJJX52fiY';
 const App = () => {
-  return (<div>
+  return (
+    <div>
 
-    <SearchBar />
-  </div>);
+      <SearchBar />
+    </div>
+  );
 }
 
 ReactDOM.render(<App />, document.querySelector('.container'));
