@@ -1,3 +1,23 @@
+.search-bar {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+}
+.video-item img {
+  max-width: 64px;
+}
+.video-detail .details {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+
 .list-group-item{
-  width: 500px;
+  cursor: pointer;
+}
+.list-group-item:hover{
+  background-color: #eee;
 }
